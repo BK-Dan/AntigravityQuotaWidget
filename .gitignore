@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Distribution / Build
+dist/
+build/
+*.spec
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Antigravity Widget Specific
+ag_widget_*.db
+
+# Agent
+.agent/
