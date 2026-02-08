@@ -14,12 +14,16 @@ from typing import Optional, Tuple, List, Dict, Any
 # ================= Configuration & Constants =================
 
 # Paths to search for Antigravity state
+# Paths to search for Antigravity state
 POSSIBLE_PATHS = [
     os.path.expandvars(r'%APPDATA%\Antigravity\User\globalStorage\state.vscdb'),
     os.path.expandvars(r'%APPDATA%\Google\Antigravity\User\globalStorage\state.vscdb'),
     os.path.expandvars(r'%APPDATA%\Google\Cloud Code\User\globalStorage\state.vscdb'),
     os.path.expandvars(r'%APPDATA%\Code\User\globalStorage\state.vscdb'),
+    os.path.expandvars(r'%APPDATA%\Code - Insiders\User\globalStorage\state.vscdb'),
+    os.path.expandvars(r'%APPDATA%\VSCodium\User\globalStorage\state.vscdb'),
     os.path.expandvars(r'%APPDATA%\Cursor\User\globalStorage\state.vscdb'),
+    os.path.expandvars(r'%APPDATA%\Windsurf\User\globalStorage\state.vscdb'),
 ]
 
 # API Configuration

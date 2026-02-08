@@ -58,7 +58,10 @@ If you prefer a standalone `.exe` file, you can build it yourself using `pyinsta
 ### Usage Tips
 > [!IMPORTANT]
 > **This widget relies on the Cloud Code API server running locally on your IDE.**  
-> Please ensure **VS Code** (with Cloud Code extension installed) or **Antigravity** is running for the widget to fetch data correctly.
+> Please ensure one of the following is running for the widget to fetch data correctly:
+> - **VS Code** (Stable / Insiders) with Cloud Code extension
+> - **Antigravity**
+> - **Cursor**, **Windsurf**, or **VSCodium** with Cloud Code extension
 > - If the widget shows "Login Required" or fails to update, check if your IDE is active.
 > - You can create a desktop shortcut (e.g., `Antigravity.lnk`) to launch them together for convenience.
 
