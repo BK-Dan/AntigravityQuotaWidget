@@ -14,7 +14,7 @@ from typing import Optional, Tuple, List, Dict, Any
 # ================= Configuration & Constants =================
 
 # Paths to search for Antigravity state
-# Paths to search for Antigravity state
+
 POSSIBLE_PATHS = [
     os.path.expandvars(r'%APPDATA%\Antigravity\User\globalStorage\state.vscdb'),
     os.path.expandvars(r'%APPDATA%\Google\Antigravity\User\globalStorage\state.vscdb'),
