@@ -14,7 +14,7 @@ A compact, always-on-top desktop widget for monitoring Google Cloud Code (Antigr
 ## English
 
 ### Features
-- **Real-time Quota Monitoring**: Tracks usage for Gemini 3 Pro, Flash, Claude, GPT, and more.
+- **Real-time Quota Monitoring**: Tracks usage for Gemini 3 Pro, Flash, Claude Opus 4.6, GPT, and more.
 - **Compact UI**: Minimalist 300px wide window that stays on top of other applications.
 - **Status Indicators**: Visual cues for Healthy (Green), Low (Yellow), and Exceeded (Red) states.
 - **Intelligent Grouping**: Automatically groups related models (e.g., Gemini 3 Pro High/Low).
@@ -70,7 +70,7 @@ If you prefer a standalone `.exe` file, you can build it yourself using `pyinsta
 ## <a id="korean"></a>한국어 (Korean)
 
 ### 주요 기능
-- **실시간 쿼터 모니터링**: Gemini 3 Pro, Flash, Claude, GPT 등의 AI 모델 사용량을 추적합니다.
+- **실시간 쿼터 모니터링**: Gemini 3 Pro, Flash, Claude Opus 4.6, GPT 등의 AI 모델 사용량을 추적합니다.
 - **컴팩트 UI**: 항상 위에 표시되는(Always-on-top) 미니멀한 300px 너비의 위젯입니다.
 - **상태 표시**: 사용량 상태를 색상으로 직관적으로 표시합니다 (Healthy-초록, Low-노랑, Exceeded-빨강).
 - **지능형 그룹화**: 관련 모델을 자동으로 그룹화하여 보여줍니다 (예: Gemini 3 Pro High/Low 통합).
@@ -123,7 +123,7 @@ If you prefer a standalone `.exe` file, you can build it yourself using `pyinsta
 ## <a id="japanese"></a>日本語 (Japanese)
 
 ### 主な機能
-- **リアルタイムクォータ監視**: Gemini 3 Pro、Flash、Claude、GPTなどのAIモデルの使用量を追跡します。
+- **リアルタイムクォータ監視**: Gemini 3 Pro、Flash、Claude Opus 4.6、GPTなどのAIモデルの使用量を追跡します。
 - **コンパクトUI**: 常に手前に表示される(Always-on-top)ミニマルな300px幅のウィジェットです。
 - **ステータス表示**: 使用状況を色で直感的に表示します (Healthy-緑, Low-黄, Exceeded-赤)。
 - **インテリジェントなグループ化**: 関連モデルを自動的にグループ化して表示します。
@@ -175,7 +175,7 @@ If you prefer a standalone `.exe` file, you can build it yourself using `pyinsta
 ## <a id="simplified-chinese"></a>简体中文 (Simplified Chinese)
 
 ### 主要功能
-- **实时配额监控**: 追踪 Gemini 3 Pro, Flash, Claude, GPT 等 AI 模型的使用量。
+- **实时配额监控**: 追踪 Gemini 3 Pro, Flash, Claude Opus 4.6, GPT 等 AI 模型的使用量。
 - **紧凑的用户界面**: 简约的 300px 宽窗口，始终保持在最前端。
 - **状态指示器**: 直观的颜色状态显示 (Healthy-绿, Low-黄, Exceeded-紅)。
 - **智能分组**: 自动分组相关模型。
@@ -226,7 +226,7 @@ If you prefer a standalone `.exe` file, you can build it yourself using `pyinsta
 ## <a id="spanish"></a>Español (Spanish)
 
 ### Características
-- **Monitoreo de Cuotas en Tiempo Real**: Rastrea el uso de Gemini 3 Pro, Flash, Claude, GPT, etc.
+- **Monitoreo de Cuotas en Tiempo Real**: Rastrea el uso de Gemini 3 Pro, Flash, Claude Opus 4.6, GPT, etc.
 - **Interfaz Compacta**: Ventana minimalista de 300px de ancho que siempre permanece visible.
 - **Indicadores de Estado**: Señales visuales para estados Saludable (Verde), Bajo (Amarillo) y Excedido (Rojo).
 - **Agrupación Inteligente**: Agrupa automáticamente modelos relacionados.
@@ -274,7 +274,7 @@ If you prefer a standalone `.exe` file, you can build it yourself using `pyinsta
 ## <a id="german"></a>Deutsch (German)
 
 ### Funktionen
-- **Echtzeit-Quotenüberwachung**: Verfolgt die Nutzung von Gemini 3 Pro, Flash, Claude, GPT usw.
+- **Echtzeit-Quotenüberwachung**: Verfolgt die Nutzung von Gemini 3 Pro, Flash, Claude Opus 4.6, GPT usw.
 - **Kompakte Benutzeroberfläche**: Minimalistisches 300px breites Fenster, das immer im Vordergrund bleibt.
 - **Statusanzeigen**: Visuelle Hinweise für die Zustände Gesund (Grün), Niedrig (Gelb) und Überschritten (Rot).
 - **Intelligente Gruppierung**: Gruppiert verwandte Modelle automatisch.
@@ -322,7 +322,7 @@ If you prefer a standalone `.exe` file, you can build it yourself using `pyinsta
 ## <a id="french"></a>Français (French)
 
 ### Fonctionnalités
-- **Suivi des Quotas en Temps Réel**: Suit l'utilisation de Gemini 3 Pro, Flash, Claude, GPT, etc.
+- **Suivi des Quotas en Temps Réel**: Suit l'utilisation de Gemini 3 Pro, Flash, Claude Opus 4.6, GPT, etc.
 - **Interface Compacte**: Fenêtre minimaliste de 300px de large qui reste toujours au-dessus.
 - **Indicateurs d'État**: Indices visuels pour les états Sain (Vert), Faible (Jaune) et Dépassé (Rouge).
 - **Regroupement Intelligent**: Regroupe automatiquement les modèles associés.

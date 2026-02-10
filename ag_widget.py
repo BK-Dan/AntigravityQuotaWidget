@@ -70,7 +70,7 @@ QUOTA_THRESHOLD_LOW = 0.5
 MODEL_GROUPS = {
     'A': {'name': 'Gemini 3 Pro', 'ids': ['gemini-3-pro-high', 'gemini-3-pro-low']},
     'B': {'name': 'Gemini 3 Flash', 'ids': ['gemini-3-flash']},
-    'C': {'name': 'Claude / GPT', 'ids': ['claude-sonnet-4-5', 'claude-opus-4-5-thinking', 'claude-sonnet-4-5-thinking', 'gpt-oss-120b-medium']},
+    'C': {'name': 'Claude / GPT', 'ids': ['claude-opus-4-6-thinking', 'claude-sonnet-4-5', 'claude-opus-4-5-thinking', 'claude-sonnet-4-5-thinking', 'gpt-oss-120b-medium']},
     'D': {'name': 'Gemini 2.5 Flash', 'ids': ['gemini-2.5-flash', 'gemini-2.5-flash-thinking']}
 }
 
@@ -225,10 +225,19 @@ class QuotaWidget(tk.Tk):
                     if reset_dt > now_dt:
                         diff = reset_dt - now_dt
                         if diff.total_seconds() > 0:
-                            mins = int(diff.total_seconds() / 60)
-                            hours = mins // 60
-                            mins = mins % 60
-                            time_str = f"{hours}h {mins}m" if hours > 0 else f"{mins}m"
+                            total_mins = int(diff.total_seconds() / 60)
+                            
+                            days = total_mins // (24 * 60)
+                            rem_mins = total_mins % (24 * 60)
+                            hours = rem_mins // 60
+                            mins = rem_mins % 60
+                            
+                            if days > 0:
+                                time_str = f"{days}d {hours}h"
+                            elif hours > 0:
+                                time_str = f"{hours}h {mins}m"
+                            else:
+                                time_str = f"{mins}m"
                 except Exception: pass
         return rem, time_str
 
